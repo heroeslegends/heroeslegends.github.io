@@ -1,0 +1,199 @@
+  .navbar{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  }
+  
+  * {
+      padding:0;
+      margin:0;
+      <!--      font-family: 'Nunito', sans-serif;-->
+<!--      font-family: "Avenir LT W01 35 Light";-->
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  
+  .hide {
+      height:0%;
+      top:-50%;
+  }
+  
+  
+  .transparent{
+      opacity: 0.4;
+      filter: alpha(opacity=40);
+  }
+
+  .navbar-pad{
+    padding-right: 20px;
+  }
+
+  #brandlogo{
+    margin-top:5px;
+  }
+  
+  .text-center{
+      text-align: center;
+  }
+  
+  .events-center{
+      max-width: 850%;
+      height:auto;
+  }
+  
+  .relative{
+      background: url("img_flwr.gif");
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+  }
+  
+  .bacons{
+      background-image: url("img/events.jpg");
+<!--      background-color: #cccccc;-->
+  }
+  
+
+  
+  html, body {
+      height:100%;
+  }
+  
+  .skrollr-desktop body {
+      height:100% !important;
+  }
+  
+  body {
+      font-family:sans-serif;
+  }
+  
+  p {
+      margin:1em 0;
+  }
+
+  .gap {
+      background:transparent center no-repeat;
+      background-size:cover;
+  }
+  
+  .skrollr .gap {
+      background:transparent !important;
+  }
+  
+  .gap-50 {
+      height:50%;
+  }
+  
+  .gap-100 {
+      height:100%;
+  }
+  
+  .header, .content {
+      background:#fff;
+<!--      padding:1em;-->
+
+      -webkit-box-sizing:border-box;
+      -moz-box-sizing:border-box;
+      box-sizing:border-box;
+  }
+  
+  .navbar-brand{
+      position: absolute;
+      padding: 2px 2% !important;
+  }
+  
+  .navbar-default{
+      background-color: black !important;
+      border-color: black !important;
+      opacity: 0.6 !important;
+  }
+  
+  .navbar-default .navbar-nav > .active > a {
+      background-color: black !important;
+      color: yellow !important;
+  }
+  
+  .navbar-collapse{
+      border-top: none !important;
+  }
+  
+  .content-full {
+      height:100%;
+  }
+  
+  .content-aboutus{
+      if (screen.width<=800) {
+          height:150%;
+      }
+      else  {
+          height:100%;
+      }
+  }
+  
+  
+  .about-us-text{
+      font-size: 17px;
+  }
+  
+  .upcomingevents {
+      height:40%;
+  }
+  
+  .done {
+      height:70px;
+  }
+  
+  /*for mobile*/
+  @media screen and (max-width: 600px) {
+      .video-container {
+          position: relative;
+          padding-bottom: 20px;
+          padding-top: 35px;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          max-width:900px;
+          max-height:43vh;
+      }
+      
+      .video-container iframe {
+          position: absolute;
+          top:0%;
+          left:5%;
+          width: 90%;
+          height: 90%;
+          max-width:900px;
+          max-height:43vh;
+      }
+      
+      .upcomingevents {
+          height:100%;
+      }
+      
+      .about-us-text{
+          font-size: 16px;
+      }
+      
+  }
+  
+  /*for ipad*/
+  @media screen and (min-width: 600px) and (max-width: 840px) {
+      .video-container {
+          position: relative;
+          padding-bottom: 20px;
+          padding-top: 35px;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          max-width:900px;
+          max-height:70vh;
+      }
+      
+      .video-container iframe {
+          position: absolute;
+          top:0%;
+          left:5%;
+          width: 90%;
+          height: 90%;
+          max-width:900px;
+          max-height:70vh;
+      }
+      
+  }

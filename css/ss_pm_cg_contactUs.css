@@ -1,0 +1,61 @@
+  
+  .hllogo{
+      max-width:70%;
+      height:auto;
+      position:relative;
+      top: 70vh;
+      margin-left:auto;
+      margin-right:auto margin-top:50px
+  }
+
+  .navbar-pad{
+    padding-right: 20px;
+  }
+
+  #brandlogo{
+    margin-top:5px;
+  }
+
+  .navbar-brand{
+      position: absolute;
+      padding: 2px 2% !important;
+  }
+  
+  .navbar-default{
+      background-color: black !important;
+      border-color: black !important;
+      opacity: 0.6 !important;
+  }
+  
+  .navbar-default .navbar-nav > .active > a {
+      background-color: black !important;
+      color: yellow !important;
+  }
+  
+  .navbar-collapse{
+      border-top: none !important;
+  }
+
+  .hllogo{
+      max-width:70%;
+      height:auto;
+      position:relative;
+      top: 70vh;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:50px;
+  }
+
+  .img-holder {
+    width:100%;
+    height:300px;
+    position:relative;
+    overflow:hidden;
+  }
+
+  .img-holder img {
+    position:absolute;
+    top:-350px;
+    height:750px;
+    width:1200px;
+  }

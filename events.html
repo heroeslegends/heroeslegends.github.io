@@ -1,0 +1,124 @@
+<html lang="en" class="skrollr skrollr-desktop">
+<head>
+  <title>Heroes & Legends</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <style type="text/css">
+  .navbar{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  }
+
+  .navbar-brand{
+      position: absolute;
+      padding: 2px 2% !important;
+  }
+  
+  .navbar-default{
+      background-color: black !important;
+      border-color: black !important;
+      opacity: 0.6 !important;
+  }
+  
+  .navbar-default .navbar-nav > .active > a {
+      background-color: black !important;
+      color: yellow !important;
+  }
+  
+  .navbar-collapse{
+      border-top: none !important;
+  }
+
+  .hllogo{
+      max-width:70%;
+      height:auto;
+      position:relative;
+      top: 70vh;
+      margin-left:auto;
+      margin-right:auto margin-top:50px;
+  }
+  </style>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/home.css" rel="stylesheet">
+  <style type="text/css"></style>
+  <link rel='stylesheet' href='calendar/fullcalendar.css' />
+  <script src='calendar/jquery.min.js'></script>
+  <script src='calendar/moment.min.js'></script>
+  <script src='calendar/fullcalendar.js'></script>
+  <script>
+  $(document).ready(function() {
+    var date = new Date();
+    var d = date.getDate();
+    var m = date.getMonth();
+    var y = date.getFullYear();
+
+    var events_array = [
+        {
+        title: 'All Day Event',
+        start: new Date(y, m, d),
+        imageurl:'img/Facebook.png'}
+        ,
+        {
+        title: 'Long Event',
+        start: new Date(y, m, d+5),
+        imageurl:'img/Facebook.png'}
+    ];
+
+    $('#calendar').fullCalendar({
+      header: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'month,agendaWeek,agendaDay'
+      },
+      events: events_array,
+      eventRender: function(event, element, view){
+        if (event.imageurl){
+          element.css('background-image', 'url(img/Facebook.png)');
+          element.find('.fc-event-title').append("<div><img src='" + event.imageurl + "'></div>");
+        }
+      }
+    })
+   });
+  </script>
+
+</head>
+
+<div class = "container-fluid">
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="#" class="navbar-brand">
+                  <img alt="Brand" src="img/navbarlogo2.png" height ="40" width="40" id="brandlogo">
+              </a>
+          <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right navbar-pad">
+                  <li class="active"><a href="#">HOME</a></li>
+                  <li><a href="#">CALENDAR</a></li>
+                  <li><a href="#">GALLERY</a></li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">CONTACT US</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</div>
+
+<body>
+	<div id='calendar'></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='calendar/jquery.min.js'></script>
+    <script src='calendar/moment.min.js'></script>
+    <script src='calendar/fullcalendar.js'></script>
+</body>
+</html>
+

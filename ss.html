@@ -1,0 +1,75 @@
+<html lang="en" class="skrollr skrollr-desktop">
+<head>
+  <title>Heroes & Legends</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" type="text/css" href="css/ss_pm_cg_contactUs.css">
+
+  <style type="text/css">
+  .img-holder img {
+    position:absolute;
+    top:-380px;
+    height:750px;
+    width:1300px;
+  }
+
+  </style>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="img-holder">
+      <img src= "img/High Def Photos/ss cover.jpeg">
+    </div>
+    <div class = "container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a href="index.html" class="navbar-brand">
+                      <img alt="Brand" src="img/navbarlogo2.png" height ="40" width="40" id="brandlogo">
+                  </a>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right navbar-pad">
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="calendar.html">CALENDAR</a></li>
+                      <li><a href="gallery.html">GALLERY</a></li>
+                      <li><a href="blog.html">BLOG</a></li>
+                      <li><a href="contactUs.html">CONTACT US</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+    </div>
+    <center><img src="img/KT - Sunday Service Text.jpg" alt="cg" style="position:relative;top:6px;max-width:38%;min-width:300px;height:auto;" class="center-block"></center>
+
+    <br><br><div class="container">
+        <p>Did you know that Heroes and Legends is actually a part of a bigger community called IFGF Pinole? Aside from the small events that we have each week, this Sunday Service is actually the highlight when we come together in a larger group to worship and praise the Lord. Curious? Check out the information below on the service time, venue and transport inquiries.<br><br>Time : 2 15 PM - 4 PM<br>Venue: 2885 Pinole Valley Road. Pinole, CA 94564<br>Need transport to get there? Contact Jusuf at (832) 538 - 9055<br><br>See you this Sunday!</p>
+    </div> 
+    <div class="container-fluid" id="googleMap" style="width:400px;height:350px;margin-bottom:75px;border-style:solid;border-width:thin;"></div>
+
+
+</body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript"> 
+  function initialize() {
+    var mapProp = {
+    center:new google.maps.LatLng(37.993051, -122.284817),
+    zoom: 18,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+  }
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+</html>

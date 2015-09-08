@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+  <title>Heroes & Legends</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" type="text/css" href="css/calendar.css">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="Calendario-master/css/demo.css" rel="stylesheet">
+  <link href="Calendario-master/css/calendar.css" rel="stylesheet">
+  <link href="Calendario-master/css/custom_3.css" rel="stylesheet"> 
+  <script src="Calendario-master/js/modernizr.custom.63321.js"></script>
+
+</head>
+
+<div class = "container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">
+                <img alt="Brand" src="img/navbarlogo2.png" height ="40" width="40" id="brandlogo">
+                    </a>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right navbar-pad">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="active"><a href="#">CALENDAR</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contactUs.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<body>
+    <div class="img-holder">
+      <img src= "img/High Def Photos/calendar cover.jpeg" style="width:100%">
+    </div>
+    
+
+
+    <div class = "container">
+      <center><img src="Calendario-master/images/CalendarText.jpg" alt="calendartext" style="position:relative;top:6px;max-width:30%;min-width:240px;height:auto;" class="center-block"></center>
+
+     
+      <section class="main">
+        <div class="custom-calendar-wrap">
+            <div id="custom-inner" class="custom-inner">
+                <div class="custom-header clearfix">
+                    <nav>
+                        <span id="custom-prev" class="custom-prev"></span>
+                        <span id="custom-next" class="custom-next"></span>
+                    </nav>
+                    <h2 id="custom-month" class="custom-month"></h2>
+                    <h3 id="custom-year" class="custom-year"></h3>
+                </div>
+                <div id="calendar"class="fc-calendar-container"></div>
+            </div>
+        </div>
+      </section>
+    </div>
+      
+  </div>
+  <footer class="content done navbar-inverse muted col-sm-12" id="events" style="background-color:#E0E0E0">
+      <center>
+        <img src="img/socmed/facebook.png" alt="facebook" style="min-width:55px;max-width:4%;height:auto;top:8;position:relative">
+        <img src="img/socmed/instagram.png" alt="instagram" style="min-width:55px;max-width:4%;height:auto;top:8;position:relative">
+        <img src="img/socmed/youtube.png" alt="youtube" style="min-width:55px;max-width:4%;height:auto;top:8;position:relative">
+      </center>
+  </footer>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="Calendario-master/js/data.js"></script>
+<script type="text/javascript" src="Calendario-master/js/jquery.calendario.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script type="text/javascript"> 
+          $(function() {
+            
+
+            
+            
+              var pop_title = '', pop_content = '';
+              $(document).popover({
+                  html: true,
+                  trigger: 'click',
+                  selector: 'div.fc-content',
+                  placement: 'auto',
+                  content: function() {
+                              pop_content=pop_content.replace("100%", "60px");
+                              pop_content=pop_content.replace("100%", "60px"); //replace 100%
+                              console.log(pop_content);
+                              return pop_content;
+                           },
+                  title: function() {
+                              return pop_title;
+                         },
+                  container: 'body',
+                  delay: {show: 0, hide: 0}
+                  
+              })
+            .on("mouseenter", function () {
+                console.log('mouseenter');
+                var _this = this;
+                $(this).popover("show");
+                $(this).siblings(".popover").on("mouseleave", function () {
+                                                $(_this).popover('hide');
+                                                });
+                }).on("mouseleave", function () {
+                      console.log('mouseleave');
+                      var _this = this;
+                      setTimeout(function () {
+                                 if (!$(".popover:hover").length) {
+                                 $(_this).popover("hide")
+                                 }
+                                 }, 100);
+                      });
+            
+            
+            
+              var transEndEventNames = {
+                      'WebkitTransition' : 'webkitTransitionEnd',
+                      'MozTransition' : 'transitionend',
+                      'OTransition' : 'oTransitionEnd',
+                      'msTransition' : 'MSTransitionEnd',
+                      'transition' : 'transitionend'
+                  },
+                  transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+                  $wrapper = $( '#custom-inner' ),
+                  $calendar = $( '#calendar' ),
+                  cal = $calendar.calendario({
+                      onDayMouseenter : function( $el, data, dateProperties ) {
+                          if( data.content.length > 0 ) {
+                              pop_title = dateProperties.monthname + ' ' + dateProperties.day + ', ' + dateProperties.year;
+                              pop_content = data.content.join('');
+                              console.log(typeof data.content);
+                              console.log(data.content)
+                              
+                           
+                          }
+                      },
+                      caldata : codropsEvents,
+                      events: 'mouseenter',
+                      displayWeekAbbr : true,
+                      fillEmpty: false
+                  }),
+                  $month = $( '#custom-month' ).html( cal.getMonthName() ),
+                  $year = $( '#custom-year' ).html( cal.getYear() );
+
+              $( '#custom-next' ).on( 'click', function() {
+                  cal.gotoNextMonth( updateMonthYear );
+              } );
+              $( '#custom-prev' ).on( 'click', function() {
+                  cal.gotoPreviousMonth( updateMonthYear );
+              } );
+
+              function updateMonthYear() {                
+                  $month.html( cal.getMonthName() );
+                  $year.html( cal.getYear() );
+              }
+
+              function logFeed( data ) {              
+                  console.log(data);
+            
+              }
+            
+            
+
+          });
+</script>
+</body>
+</html>
+
