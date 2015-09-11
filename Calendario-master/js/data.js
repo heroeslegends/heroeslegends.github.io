@@ -25,17 +25,32 @@ var codropsEvents = {
 	'08-23-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
 	'08-30-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
 
+	'09-06-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
+	'09-13-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
+	'09-20-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
+	'09-27-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
+
 	//cg
 	'08-07-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
 	'08-14-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
 	'08-21-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
 	'08-28-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
 
+	'09-04-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
+	'09-11-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
+	'09-18-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
+	'09-25-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
+
 	//pm
 	'08-06-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
 	'08-13-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
 	'08-20-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
 	'08-27-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
+
+	'09-03-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
+	'09-10-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
+	'09-17-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
+	'09-24-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},	
 
 
 

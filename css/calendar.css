@@ -57,6 +57,11 @@
     background-color:transparent;
   }
 
+  .fc-calendar .fc-row > div.fc-past.fc-content >  span.fc-date{
+    color:red; !important
+    background-color:transparent;
+  }
+
   .fc-calendar .fc-row > div.fc-content >  span.fc-date{
     left:50%;
     top:50%;
