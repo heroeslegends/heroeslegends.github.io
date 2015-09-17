@@ -1,3 +1,13 @@
+//var ss = '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>';
+
+
+var ss = '<a href="ss.html" target="_blank">click here!</a>';
+
+var cg = '<a href="cg.html" target="_blank">click here!</a>';
+
+var pm = '<a href="pm.html" target="_blank">click here!</a>';
+
+
 var codropsEvents = {
 	// '11-21-2013' : '<a href="http://www.wincalendar.com/Great-American-Smokeout">Great American Smokeout</a>',
 	// '11-13-2013' : '<span>Ashura [An example of an complete date event (11-13-2013)]</span>',
@@ -19,43 +29,42 @@ var codropsEvents = {
 	// ],
 
 	//ss
-	'08-02-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
-	'08-09-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
-	'08-16-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
-	'08-23-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
-	'08-30-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
+	'08-02-2015':  {content: ss},
+	'08-09-2015':  {content: ss},
+	'08-16-2015':  {content: ss},
+	'08-23-2015':  {content: ss},
+	'08-30-2015':  {content: ss},
 
-	'09-06-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
-	'09-13-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
-	'09-20-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
-	'09-27-2015':  {content: '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>'},
+	'09-06-2015':  {content: ss},
+	'09-13-2015':  {content: ss},
+	'09-20-2015':  {content: ss},
+	'09-27-2015':  {content: ss},
 
 	//cg
-	'08-07-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
-	'08-14-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
-	'08-21-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
-	'08-28-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
+	'08-07-2015':  {content: cg},
+	'08-14-2015':  {content: cg},
+	'08-21-2015':  {content: cg},
+	'08-28-2015':  {content: cg},
 
-	'09-04-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
-	'09-11-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
-	'09-18-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
-	'09-25-2015':  {content: '<img src="img/cg.jpg" height="100%" width="100%" style="left:20%"><a href="cg.html" target="_blank">click here!</a>'},
+	'09-04-2015':  {content: cg},
+	'09-11-2015':  {content: cg},
+	'09-18-2015':  {content: cg},
+	'09-25-2015':  {content: cg},
 
 	//pm
-	'08-06-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
-	'08-13-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
-	'08-20-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
-	'08-27-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
+	'08-06-2015':  {content: pm},
+	'08-13-2015':  {content: pm},
+	'08-20-2015':  {content: pm},
+	'08-27-2015':  {content: pm},
 
-	'09-03-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
-	'09-10-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
-	'09-17-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},
-	'09-24-2015':  {content: '<img src="img/pm.jpg" height="100%" width="100%" style="left:20%"><a href="pm.html" target="_blank">click here!</a>'},	
+	'09-03-2015':  {content: pm},
+	'09-10-2015':  {content: pm},
+	'09-17-2015':  {content: pm},
+	'09-24-2015':  {content: pm}	
 
 
 
 };
-
 
 
 //NOTE: setting height and width to 100% is important! for now, use js to replace 100% to 60px for popover

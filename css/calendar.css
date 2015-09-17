@@ -41,32 +41,40 @@
 
  
 
-  .fc-calendar .fc-row > div.fc-today.fc-future >  span.fc-date{
-    color:red;
-    background-color:yellow;
-
+  .fc-calendar .fc-row > div.fc-today.fc-future >  span.fc-date {
+    font-size: 40px;
+    color: green !important;
+    position: absolute;
+    margin-left: -35%;
   }
 
-  .fc-calendar .fc-row > div.fc-today.fc-future.fc-content >  span.fc-date{
-    color:red;
-    background-color:yellow;
+  .fc-calendar .fc-row > div.fc-today.fc-future.fc-content >  span.fc-date {
+    color: red;
+    background-color: yellow;
   }
 
-  .fc-calendar .fc-row > div.fc-future.fc-content >  span.fc-date{
-    color:red;
+  .fc-calendar .fc-row > div.fc-future.fc-content >  span.fc-date {
+    color: red;
+    background-color: transparent;
+  }
+
+  .fc-calendar .fc-row > div.fc-past.fc-content >  span.fc-date {
+    color:red !important;
     background-color:transparent;
   }
 
-  .fc-calendar .fc-row > div.fc-past.fc-content >  span.fc-date{
-    color:red; !important
-    background-color:transparent;
-  }
-
-  .fc-calendar .fc-row > div.fc-content >  span.fc-date{
+  .fc-calendar .fc-row > div.fc-content >  span.fc-date {
     left:50%;
     top:50%;
   }
 
+  div.fc-past.fc-content {
+    background-color: #FFFFE0 !important;
+  }
+
+  div.fc-future.fc-content {
+    background-color: #FFFFE0 !important;
+  }
 
 
 
