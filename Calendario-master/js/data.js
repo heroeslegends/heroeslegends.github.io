@@ -1,11 +1,11 @@
 //var ss = '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>';
 
 
-var ss = '<a href="ss.html" target="_blank">click here!</a>';
+var ss = '<p>Didn’t you enjoy our Friday gatherings? Want more? Let’s celebrate the Sabbath Day with an even bigger, awesome-r group at IFGF Pinole!</p><a href="ss.html" target="_blank">click here!</a>';
 
-var cg = '<a href="cg.html" target="_blank">click here!</a>';
+var cg = '<p>You wouldn’t want to miss this one! A gathering with not only delicious food, exciting games, spirit-lifting music but also your beloved brothers and sisters! Come on and join us!</p><a href="cg.html" target="_blank">click here!</a>';
 
-var pm = '<a href="pm.html" target="_blank">click here!</a>';
+var pm = '<p>There is no better way to connect with God than through prayer. Even better, connecting with him together with your friends! Come join us on our weekly prayer meeting!</p><a href="pm.html" target="_blank">click here!</a>';
 
 
 var codropsEvents = {
