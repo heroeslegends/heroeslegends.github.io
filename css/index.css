@@ -246,6 +246,9 @@
       }
       
       .upcomingevents {
+          display:block;
+          clear:both;
+          height:100%;
       }
       
       .about-us-text{
