@@ -221,7 +221,11 @@
   .done {
       height:70px;
   }
-  
+
+.upcomingevents .container div {
+    float:none;
+}
+
   /*for iphone 5*/
   @media screen and (max-width: 330px) {
       .video-container {
