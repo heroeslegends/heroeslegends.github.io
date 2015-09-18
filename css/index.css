@@ -222,7 +222,7 @@
       height:70px;
   }
 
-.upcomingevents .container div {
+.upcomingevents * {
     float:none;
 }
 
