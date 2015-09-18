@@ -258,7 +258,7 @@
   }
 
     /*for mobile*/
-    @media screen and (max-width: 600px) {
+    @media screen and (min-width: 330px) and (max-width: 600px) {
         .video-container {
             position: relative;
             padding-bottom: 20px;
