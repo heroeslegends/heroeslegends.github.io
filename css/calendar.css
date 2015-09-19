@@ -34,8 +34,11 @@
   }
 
 
-  .done {
+  footer.done {
       height:70px;
+      bottom:0px;
+      float:none;
+      top:none;
   }
   
 
@@ -44,7 +47,8 @@
     height: auto;
     max-width: 800px;
     min-width: 400px;
-
+    display:block;
+    text-align:center;
 
   }
 
@@ -113,6 +117,12 @@
     overflow:hidden;
   }
 
+body div.container {
+    height:auto;
+    display:block;
+    margin-bottom:50px;
+}
+
   .img-holder img {
     position:absolute;
     top:-250px;
@@ -123,11 +133,98 @@
   .maincontent{
     background-size: 100% 100%;
     background-repeat:no-repeat;
-
   }
 
   div#myNavbar.collapse.navbar-collapse{
     padding-right:20px;
-
-
   }
+
+
+
+
+.parallax-image-wrapper {
+    position:fixed;
+    left:0;
+    width:100%;
+    overflow:hidden;
+}
+
+.parallax-image-wrapper-50 {
+    height:50%;
+    top:-50%;
+}
+
+.parallax-image-wrapper-100 {
+    height:100%;
+    top:-100%;
+}
+
+.parallax-image {
+    display:none;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.parallax-image-50 {
+    height:200%;
+    top:-50%;
+}
+
+.parallax-image-100 {
+    height:100%;
+    top:0;
+}
+
+.parallax-image.skrollable-between {
+    display:block;
+}
+
+.no-skrollr .parallax-image-wrapper {
+    display:none !important;
+}
+
+.hide {
+    height:0%;
+    top:-50%;
+}
+
+#skrollr-body {
+    height:100%;
+    overflow:visible;
+    position:relative;
+}
+
+.gap {
+    background:transparent center no-repeat;
+    background-size:cover;
+}
+
+.skrollr .gap {
+    background:transparent !important;
+}
+
+.gap-50 {
+    height:50%;
+}
+
+.gap-100 {
+    height:100%;
+}
+
+.header, .content {
+    background:#fff;
+    /*padding:1em;*/
+    
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+
+
