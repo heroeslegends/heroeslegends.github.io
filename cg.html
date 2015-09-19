@@ -1,6 +1,6 @@
 <html lang="en" class="skrollr skrollr-desktop">
 <head>
-  <title>Heroes & Legends</title>
+  <title>Heroes &amp; Legends</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -21,9 +21,7 @@
 </head>
 
 <body>
-    <div class="img-holder">
-      <img src= "img/High Def Photos/cg cover.jpeg">
-    </div>
+
     <div class = "container-fluid">
       <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
@@ -46,17 +44,57 @@
           </div>
       </nav>
     </div>
-    <center>
-      <br><br><br><img src="img/KT - Caregroup Text.jpg" alt="cg" style="position:relative;top:6px;max-width:30%;min-width:300px;height:auto;" class="center-block"><br></center>
-
-    <br><br><div class="container">
-        <p>Our Caregroup is divided into two groups: Heroes for the guys and Legends for the girls. Though both groups share the passion to know more about Jesus, each has its own unique traits and favorite activities to do together. Heroes like to indulge in fast food before Friday gathering, hit the gym together, and watch movies; while Legends like to do kokology, bake together (and share them, of course), and drink boba as if it is the healthiest drink in the world! Despite the random activities that we do on daily basis, we would specially gather on Fridays to praise and worship, and share about the word of God to one another.<br><br>Don’t miss out on all the fun! Check our event page to know what is going to happen this week!
-        </p>
+    
+    <div class="parallax-image-wrapper parallax-image-wrapper-50 skrollable skrollable-between"
+        data-anchor-target="#head + .gap"
+        data-bottom-top="transform:translate3d(0px, 300%, 0px)"
+        data-top-bottom="transform:translate3d(0px, 0%, 0px)"
+        style="-webkit-transform: translate3d(0px, 106.64036817883%, 0px); transform: translate3d(0px, 106.64036817883%, 0px);">
+        <div class="parallax-image parallax-image-50 skrollable skrollable-between"
+            style="-webkit-transform: translate3d(0px, -55%, 0px); transform: translate3d(0px, -55%, 0px); background-image: url(img/High%20Def%20Photos/cg%20cover.jpeg);"
+            data-anchor-target="#head + .gap"
+            data-bottom-top="transform: translate3d(0px, -30%, 0px);"
+            data-top-bottom="transform: translate3d(0px, 30%, 0px);"></div>
+        <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
     </div>
+    
+    
+    <div id="skrollr-body">
+        <div class="header hide" id="head"></div>
+        <div class="gap gap-50" style="background-image:url(img/HLHpage.png);">
+        </div>
 
+        <div class="content container">
+            
+            <center>
+                <br><img src="img/KT - Caregroup Text.jpg" alt="cg" style="position:relative;top:6px;max-width:30%;min-width:300px;height:auto;" class="center-block"><br></center>
+            
+            <p>Our Caregroup is divided into two groups: Heroes for the guys and Legends for the girls. Though both groups share the passion to know more about Jesus, each has its own unique traits and favorite activities to do together. Heroes like to indulge in fast food before Friday gathering, hit the gym together, and watch movies; while Legends like to do kokology, bake together (and share them, of course), and drink boba as if it is the healthiest drink in the world! Despite the random activities that we do on daily basis, we would specially gather on Fridays to praise and worship, and share about the word of God to one another.<br><br>Don’t miss out on all the fun! Check our event page to know what is going to happen this week!
+            </p>
+        </div>
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src="js/skrollr.js"></script>
+    <script type="text/javascript">
+        var s=null;
+        $( document ).ready(function() {
+                            s = skrollr.init({
+                                             smoothScrolling: false,
+                                             mobileDeceleration: 0.004,
+                                             forceHeight:false
+                                             });
+                            
+                            });
+    </script>
+
+    
 </body>
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
 
 </html>
