@@ -1,6 +1,6 @@
 <html lang="en" class="skrollr skrollr-desktop">
 <head>
-  <title>Heroes & Legends</title>
+  <title>Heroes &amp; Legends</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -44,17 +44,29 @@
 
 <body>
     
+    <div class="parallax-image-wrapper parallax-image-wrapper-50 skrollable skrollable-between"
+        data-anchor-target="#head + .gap"
+        data-bottom-top="transform:translate3d(0px, 300%, 0px)"
+        data-top-bottom="transform:translate3d(0px, 0%, 0px)"
+        style="-webkit-transform: translate3d(0px, 106.64036817883%, 0px); transform: translate3d(0px, 106.64036817883%, 0px);">
+        <div class="parallax-image parallax-image-50 skrollable skrollable-between"
+            style="-webkit-transform: translate3d(0px, -55%, 0px); transform: translate3d(0px, -55%, 0px); background-image: url(img/High%20Def%20Photos/contact%20us%20cover.jpeg);"
+            data-anchor-target="#head + .gap"
+            data-bottom-top="transform: translate3d(0px, -30%, 0px);"
+            data-top-bottom="transform: translate3d(0px, 30%, 0px);"></div>
+        <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+    </div>
 
 
     <div id="skrollr-body">
-        <div class="content bacons" id="about-us">
+        <div class="header hide" id="head"></div>
+        <div class="gap gap-50" style="background-image:url(img/HLHpage.png);">
+        </div>
+        
+        <div class="content">
             <div class="row" style="width:103vw">
-                <div class="img-holder">
-                  <img src= "img/High Def Photos/contact us cover.jpeg" style="width:100%">
-                </div>
-                
                 <center>
-                    <br><br><br>
+                    <br>
                     <img src="img/KT - Contact Us Text.jpg" alt="upcoming events" style="position:relative;top:6px;max-width:30%;min-width:250px;height:auto;padding-bottom: 35px" class="center-block">
                     <br>
                 </center>
@@ -90,26 +102,24 @@
                     <center><button type="submit" class="btn btn-primary">Submit</button></center>
               </FORM>
                   <br><br>
-                </div>
+            </div>
         </div>
-        
+    
            
             
-    <footer class="content done navbar-inverse muted col-sm-12" id="events" style="background-color:#E0E0E0">
-      <center>
-         <a href="#">
-           <img src="img/socmed/facebook.png" alt="facebook" style="min-width:55px;max-width:4%;height:auto;top:8;position:relative">
-         </a>
-         <a href="https://instagram.com/cgheroeslegends/">
-           <img src="img/socmed/instagram.png" alt="instagram" style="min-width:55px;max-width:4%;height:auto;top:8;position:relative">
-         </a>
-         <a href="https://www.youtube.com/channel/UCIfr18xM36hHXO9VJsxuYXw">
-           <img src="img/socmed/youtube.png" alt="youtube" style="min-width:55px;max-width:4%;height:auto;top:8;position:relative">
-         </a>
-      </center>
-    </footer>
-
-        </div>
+        <footer class="content done navbar-inverse muted col-sm-12" id="events" style="background-color:#E0E0E0">
+          <center>
+             <a href="#">
+               <img src="img/socmed/facebook.png" alt="facebook" style="min-width:55px;max-width:4%;height:auto;top:8;position:relative">
+             </a>
+             <a href="https://instagram.com/cgheroeslegends/">
+               <img src="img/socmed/instagram.png" alt="instagram" style="min-width:55px;max-width:4%;height:auto;top:8;position:relative">
+             </a>
+             <a href="https://www.youtube.com/channel/UCIfr18xM36hHXO9VJsxuYXw">
+               <img src="img/socmed/youtube.png" alt="youtube" style="min-width:55px;max-width:4%;height:auto;top:8;position:relative">
+             </a>
+          </center>
+        </footer>
         
     </div>
     

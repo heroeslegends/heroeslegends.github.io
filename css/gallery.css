@@ -185,15 +185,7 @@
   .content-full {
       height:100%;
   }
-  
-  .content-aboutus{
-      if (screen.width<=800) {
-          height:400%;
-      }
-      else  {
-          height:100%;
-      }
-  }
+
   
   .hllogo{
       max-width:70%;
@@ -206,10 +198,6 @@
   
   .about-us-text{
       font-size: 17px;
-  }
-  
-  .upcomingevents {
-      height:40%;
   }
   
   .done {
