@@ -59,8 +59,7 @@
   }
 
   .fc-calendar .fc-row > div.fc-today.fc-future >  span.fc-date {
-    font-weight: bold;
-    font-size: 30px !important;
+    font-size: 25px !important;
     color: red !important;
     position: absolute;
     text-align: center;
