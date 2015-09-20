@@ -42,7 +42,7 @@
   }
   
 
- 
+
   .custom-calendar-wrap {
     height: auto;
     max-width: 800px;
@@ -52,25 +52,32 @@
 
   }
 
+  span.fc-date {
+    font-family: Tahoma, Geneva, sans-serif !important;
+    color: black !important;
+    font-size: 18px !important;
+  }
+
   .fc-calendar .fc-row > div.fc-today.fc-future >  span.fc-date {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 30px !important;
     color: red !important;
     position: absolute;
     text-align: center;
   }
 
+
   .fc-calendar .fc-row > div.fc-today.fc-future.fc-content >  span.fc-date {
-    color: red;
+    color: black;
   }
 
   .fc-calendar .fc-row > div.fc-future.fc-content >  span.fc-date {
-    color: red;
+    color: black;
     background-color: transparent;
   }
 
   .fc-calendar .fc-row > div.fc-past.fc-content >  span.fc-date {
-    color:red !important;
+    color:black !important;
     background-color:transparent;
   }
 
@@ -138,6 +145,17 @@ body div.container {
   div#myNavbar.collapse.navbar-collapse{
     padding-right:20px;
   }
+
+  .popup-title {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .popup-text {
+    width:11em;
+  }
+
 
 
 

@@ -117,7 +117,7 @@
   .video-container {
       position: relative;
       padding-bottom: 20px;
-      padding-top: 35px;
+      padding-top: 25px;
       width: 100%;
       height: 100%;
       overflow: hidden;
@@ -209,13 +209,23 @@
       margin-left:auto;
       margin-right:auto;
   }
+
+  .about-us-title {
+    padding-top: 20px;
+  }
   
-  .about-us-text{
-      font-size: 17px;
+  .about-us-text {
+    font-size: 17px;
   }
   
   .upcomingevents {
       /*height:100%;*/
+  }
+
+  .upevent-text {
+    text-align: justify;
+    padding-right: 1em;
+    padding-left: 1em;
   }
   
   .done {
@@ -231,7 +241,6 @@
       .video-container {
           position: relative;
           padding-bottom: 20px;
-          padding-top: 35px;
           width: 100%;
           height: 100%;
           overflow: hidden;
