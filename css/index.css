@@ -59,30 +59,6 @@ html, body {
   padding-left: 1em;
 }
 
-.socmed-icon {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  height:100%;    
-  width: auto;
-  position:relative;
-  bottom: 2px;
-}
-
-.socmed-icon:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.col-sm-12 {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  margin: 0 auto !important;
-}
-
-
 .upcomingevents * {
   float:none;
 }
