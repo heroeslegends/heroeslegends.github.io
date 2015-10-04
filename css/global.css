@@ -37,6 +37,11 @@ p {
     filter: alpha(opacity=40);
 }
 
+.title-img {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
 
 /*NAVBAR*/
 
