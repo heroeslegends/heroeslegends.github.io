@@ -1,11 +1,11 @@
 //var ss = '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>';
 
 
-var ss = '<span class="popup-title">SUNDAY SERVICE</span><img src="img/service.jpg" style="width:90px; height:60px; margin-bottom:5px;"><p class="popup-text">Didn’t you enjoy our Friday gatherings? Want more? Let’s celebrate the Sabbath Day with an even bigger, awesome-r group at IFGF Pinole!</p></a>';
+var ss = '<span class="popup-title">SUNDAY SERVICE</span><img src="img/service.jpg" class="event-img"><p class="popup-text"><br>2885 Pinole Valley Rd, Pinole, CA<br><br>Every Sunday at 2:15.</p></a>';
 
-var cg = '<span class="popup-title">CAREGROUP</span><img src="img/cg.jpg" height="60px" width:"60px"><p class="popup-text">You wouldn’t want to miss this one! A gathering with not only delicious food, exciting games, spirit-lifting music but also your beloved brothers and sisters! Come on and join us!</p></a>';
+var cg = '<span class="popup-title">CAREGROUP</span><img src="img/cg.jpg" class="event-img"><p class="popup-text"><br>Food. Worship. Fellowship.<br><br>Every Friday at 6 in various locations.</p></a>';
 
-var pm = '<span class="popup-title">PRAYER MEETING</span><img src="img/pm.jpg" height="60px" width:"60px"><p class="popup-text">There is no better way to connect with God than through prayer. Even better, connecting with him together with your friends! Come join us on our weekly prayer meeting!</p></a>';
+var pm = '<span class="popup-title">PRAYER MEETING</span><img src="img/pm.jpg" class="event-img"><p class="popup-text"><br>A safe place to connect and open up.<br><br>Connect with your Care Group for more information.</p></a>';
 
 
 var codropsEvents = {

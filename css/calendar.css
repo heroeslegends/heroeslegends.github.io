@@ -1,7 +1,6 @@
 /*CALENDAR*/
 
 .custom-calendar-wrap {
-  height: auto;
   max-width: 800px;
   min-width: 400px;
   display:block;
@@ -9,11 +8,36 @@
 
 }
 
+.fc-calendar-container {
+  height: 550px !important;
+  }
+
 span.fc-date {
   font-family: Tahoma, Geneva, sans-serif !important;
   color: black !important;
   font-size: 18px !important;
+  left: 88% !important;
+  top:14% !important;
 }
+
+.fc-calendar .fc-row > div.fc-content >  span.fc-date {
+  left: 88%;
+  top: 14%;
+  position: absolute;
+  z-index: 1;
+  background-color: white !important;
+  height: 21px;
+  width: 25px;
+  border-radius: 100;
+}
+
+.event-img {
+  width:88px;
+  height:80px;
+  position:relative;
+  margin-bottom:5px;
+}
+
 
 .fc-calendar .fc-row > div.fc-today.fc-future >  span.fc-date {
   font-size: 25px !important;
@@ -23,35 +47,14 @@ span.fc-date {
 }
 
 
-.fc-calendar .fc-row > div.fc-today.fc-future.fc-content >  span.fc-date {
-  color: black;
-}
 
-.fc-calendar .fc-row > div.fc-future.fc-content >  span.fc-date {
-  color: black;
-  background-color: transparent;
-}
 
-.fc-calendar .fc-row > div.fc-past.fc-content >  span.fc-date {
-  color:black !important;
-  background-color:transparent;
-}
 
-.fc-calendar .fc-row > div.fc-content >  span.fc-date {
-  left:50%;
-  top:50%;
-}
 
-div.fc-past.fc-content {
-  background-color: #FFFFE0 !important;
-}
 
-div.fc-future.fc-content {
-  background-color: #FFFFE0 !important;
-}
 
 div.fc-calendar-event > p, div.fc-calendar-event > img {
-  display: none;
+  
 }
 
 h2#custom-month.custom-month{
@@ -100,4 +103,3 @@ div#myNavbar.collapse.navbar-collapse{
 .popup-text {
   width:11em;
 }
-
