@@ -224,12 +224,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/skrollr.js"></script>
-<!--    <script type="text/javascript">-->
-<!--        skrollr.init({-->
-<!--             smoothScrolling: false,-->
-<!--             mobileDeceleration: 0.004-->
-<!--    });-->
-<!--    </script>-->
     <script type="text/javascript">
         var s=null;
         $( document ).ready(function() {
@@ -241,14 +235,14 @@
                          mobileDeceleration: 0.004,
                              forceHeight:false
                          });
+            setTimeout(rfrsh, 15000);
+            function rfrsh(){
+                s.refresh();
+            }
                             
         });
     </script>
-    <script type="text/javascript">
-        $( document ).ready(function() {
-                            s.refresh();
-        });
-    </script>
+
 
     
     <!--  for loader  -->
