@@ -73,7 +73,7 @@
         <div class="gap gap-50" style="background-image:url(Gallery-master/img/haloween.jpg);">
         </div>
         
-        <div class="content" style="background-image:url('Gallery-master/img/KT - W2 Background Red Logo.png');background-repeat: no-repeat;">
+        <div class="content content-full" style="background-image:url('Gallery-master/img/KT - W2 Background Red Logo.png');background-repeat: no-repeat;">
             <div class="container">
                 <center>
                   <br><img src="Gallery-master/img/KT - Gallery Text.jpg" alt="Gallery" style="position:relative;top:13px;max-width:35%;min-width:240px;height:auto;" class="center-block"><br><br></center>
@@ -211,10 +211,18 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/skrollr.min.js"></script>
     <script type="text/javascript">
-        skrollr.init({
-             smoothScrolling: false,
-             mobileDeceleration: 0.004
-    });
+        var s=null;
+        $( document ).ready(function() {
+            s = skrollr.init({
+                             smoothScrolling: false,
+                             mobileDeceleration: 0.004,
+                             forceHeight:false
+            });
+            setTimeout(rfrsh, 15000);
+            function rfrsh(){
+                s.refresh();
+            }
+        });
     </script>
   
 </body>
