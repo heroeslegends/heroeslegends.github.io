@@ -31,15 +31,15 @@ html, body {
     overflow: hidden;
     max-width:760px;
     max-height:480px;
-    min-height:200px
+    min-height:200px;
+    text-align:center;
 }
 
 .video-container iframe {
-    position: relative;
-    top:0%;
-    left:0%;
+    position: absolute;
+    left:5%;
     width: 90%;
-    height: 94%;
+    height: 100%;
     max-width:760px;
     max-height:480px;
 }
