@@ -32,16 +32,19 @@ span.fc-date {
   border-radius: 100;
 }
 
+
+
 .event-img {
-  width:88px;
-  height:80px;
+
+  padding-top: 3%;
+  width:97%;
+  height:97%;
   position:relative;
-  margin-bottom:5px;
 }
 
 
 .fc-calendar .fc-row > div.fc-today.fc-future >  span.fc-date {
-  font-size: 25px !important;
+  font-size: 21px !important;
   color: red !important;
   position: absolute;
   text-align: center;
@@ -86,12 +89,12 @@ body div.container {
   width:1200px;
 }
 
-.maincontent{
+.maincontent {
   background-size: 100% 100%;
   background-repeat:no-repeat;
 }
 
-div#myNavbar.collapse.navbar-collapse{
+div#myNavbar.collapse.navbar-collapse {
   padding-right:20px;
 }
 
@@ -103,4 +106,22 @@ div#myNavbar.collapse.navbar-collapse{
 
 .popup-text {
   width:11em;
+}
+
+div.popover-content > img.event-img {
+  display: none;
+}
+
+div.fc-calendar-event > span {
+  display: none;
+}
+
+.popup-img {
+  height: 70px;
+  width: 80px;
+}
+
+div.fc-calendar-event > img.popup-img {
+  display: none;
+
 }

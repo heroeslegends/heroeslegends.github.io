@@ -1,11 +1,11 @@
 //var ss = '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>';
 
 
-var ss = '<span class="popup-title">SUNDAY SERVICE</span><img src="img/service.jpg" class="event-img"><p class="popup-text"><br>2885 Pinole Valley Rd, Pinole, CA<br><br>Every Sunday at 2:15.</p></a>';
+var ss = '<span class="popup-title">SUNDAY SERVICE</span><img src="img/service.jpg" class="event-img"><img src="img/service.jpg" class="popup-img"><p class="popup-text"><span>2885 Pinole Valley Rd, Pinole, CA<br><br>Every Sunday at 2:15.</p></a></span>';
 
-var cg = '<span class="popup-title">CAREGROUP</span><img src="img/cg.jpg" class="event-img"><p class="popup-text"><br>Food. Worship. Fellowship.<br><br>Every Friday at 6 in various locations.</p></a>';
+var cg = '<span class="popup-title">CAREGROUP</span><img src="img/cg.jpg" class="event-img"><img src="img/cg.jpg" class="popup-img"><p class="popup-text"><span>Food. Worship. Fellowship.<br><br>Every Friday at 6 in various locations.</p></a></span>';
 
-var pm = '<span class="popup-title">PRAYER MEETING</span><img src="img/pm.jpg" class="event-img"><p class="popup-text"><br>A safe place to connect and open up.<br><br>Connect with your Care Group for more information.</p></a>';
+var pm = '<span class="popup-title">PRAYER MEETING</span><img src="img/pm.jpg" class="event-img"><img src="img/pm.jpg" class="popup-img"><p class="popup-text"><span>A safe place to connect and open up.<br><br>Connect with your Care Group for more information.</p></a></span>';
 
 
 var codropsEvents = {
@@ -29,38 +29,40 @@ var codropsEvents = {
 	// ],
 
 	//ss
-	'08-02-2015':  {content: ss},
-	'08-09-2015':  {content: ss},
-	'08-16-2015':  {content: ss},
-	'08-23-2015':  {content: ss},
-	'08-30-2015':  {content: ss},
+	// '08-02-2015':  {content: ss},
+	// '08-09-2015':  {content: ss},
+	// '08-16-2015':  {content: ss},
+	// '08-23-2015':  {content: ss},
+	// '08-30-2015':  {content: ss},
 
-	'09-06-2015':  {content: ss},
-	'09-13-2015':  {content: ss},
-	'09-20-2015':  {content: ss},
-	'09-27-2015':  {content: ss},
+	'10-04-2015':  {content: ss},
+	'10-11-2015':  {content: ss},
+	'10-18-2015':  {content: ss},
+	'10-25-2015':  {content: ss},
+	'11-01-2015': {content: ss},
 
 	//cg
-	'08-07-2015':  {content: cg},
-	'08-14-2015':  {content: cg},
-	'08-21-2015':  {content: cg},
-	'08-28-2015':  {content: cg},
+	// '08-07-2015':  {content: cg},
+	// '08-14-2015':  {content: cg},
+	// '08-21-2015':  {content: cg},
+	// '08-28-2015':  {content: cg},
 
-	'09-04-2015':  {content: cg},
-	'09-11-2015':  {content: cg},
-	'09-18-2015':  {content: cg},
-	'09-25-2015':  {content: cg},
+	'10-02-2015':  {content: cg},
+	'10-09-2015':  {content: cg},
+	'10-16-2015':  {content: cg},
+	'10-23-2015':  {content: cg},
+	'10-30-2015':  {content: cg}
 
 	//pm
-	'08-06-2015':  {content: pm},
-	'08-13-2015':  {content: pm},
-	'08-20-2015':  {content: pm},
-	'08-27-2015':  {content: pm},
+	// '08-06-2015':  {content: pm},
+	// '08-13-2015':  {content: pm},
+	// '08-20-2015':  {content: pm},
+	// '08-27-2015':  {content: pm},
 
-	'09-03-2015':  {content: pm},
-	'09-10-2015':  {content: pm},
-	'09-17-2015':  {content: pm},
-	'09-24-2015':  {content: pm}	
+	// '09-03-2015':  {content: pm},
+	// '09-10-2015':  {content: pm},
+	// '09-17-2015':  {content: pm},
+	// '09-24-2015':  {content: pm}	
 
 
 
