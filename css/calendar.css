@@ -125,3 +125,7 @@ div.fc-calendar-event > img.popup-img {
   display: none;
 
 }
+
+.title-img {
+  padding-bottom: 0px !important;
+}
