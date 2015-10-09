@@ -9,7 +9,8 @@
 }
 
 .fc-calendar-container {
-  height: 550px !important;
+    height: 500px !important;
+    width: 90% !important;
   }
 
 span.fc-date {
