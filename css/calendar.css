@@ -13,6 +13,10 @@
     width: 90% !important;
   }
 
+.fc-content:hover {
+  background: #efff99 !important;
+}
+
 span.fc-date {
   font-family: Tahoma, Geneva, sans-serif !important;
   color: black !important;
