@@ -8,6 +8,15 @@ p {
     margin:1em 0;
 }
 
+.not-active {
+  color: gray !important;
+}
+
+.not-active:hover {
+  color: yellow !important;
+  background-color: black !important;
+}
+
 .text-center{
     text-align: center;
 }
