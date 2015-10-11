@@ -46,6 +46,15 @@ var codropsEvents = {
 	'10-18-2015':  {content: ss},
 	'10-25-2015':  {content: ss},
 	'11-01-2015': {content: ss},
+	'11-08-2015': {content: ss},
+	'11-15-2015': {content: ss},
+	'11-22-2015': {content: ss},
+	'11-29-2015': {content: ss},
+	'12-06-2015': {content: ss},
+	'12-13-2015': {content: ss},
+	'12-20-2015': {content: ss},
+	'12-27-2015': {content: ss},
+
 
 	//cg
 	// '08-07-2015':  {content: cg},
@@ -58,6 +67,12 @@ var codropsEvents = {
 	'10-16-2015':  {content: cg},
 	'10-23-2015':  {content: cg},
 	'10-30-2015':  {content: cg},
+	'11-13-2015':  {content: cg},
+	'11-20-2015':  {content: cg},
+	'12-04-2015':  {content: cg},
+	'10-11-2015':  {content: cg},
+	'10-18-2015':  {content: cg},
+	'10-25-2015':  {content: cg},
 
 	//pm
 	// '08-06-2015':  {content: pm},

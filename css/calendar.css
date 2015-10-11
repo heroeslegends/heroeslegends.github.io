@@ -10,7 +10,8 @@
 
 .fc-calendar-container {
     height: 500px !important;
-    width: 90% !important;
+    width: 100% !important;
+    padding: 15px !important;
   }
 
 .fc-content:hover {
@@ -122,6 +123,7 @@ div.fc-calendar-event > span {
 .popup-img {
   height: 70px;
   width: 70px;
+  padding-bottom: 5px;
 }
 
 div.fc-calendar-event > img.popup-img {
