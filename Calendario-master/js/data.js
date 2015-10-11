@@ -70,9 +70,6 @@ var codropsEvents = {
 	'11-13-2015':  {content: cg},
 	'11-20-2015':  {content: cg},
 	'12-04-2015':  {content: cg},
-	'10-11-2015':  {content: cg},
-	'10-18-2015':  {content: cg},
-	'10-25-2015':  {content: cg},
 
 	//pm
 	// '08-06-2015':  {content: pm},
