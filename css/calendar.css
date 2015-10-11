@@ -40,7 +40,7 @@ span.fc-date {
 
 .event-img {
 
-  width:100%;
+  width:90%;
   height:100%;
   position:relative;
 }
@@ -121,7 +121,7 @@ div.fc-calendar-event > span {
 
 .popup-img {
   height: 70px;
-  width: 80px;
+  width: 70px;
 }
 
 div.fc-calendar-event > img.popup-img {

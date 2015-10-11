@@ -1,11 +1,17 @@
 //var ss = '<img src="img/service.jpg" height="100%" width="100%" style="left:20%"><a href="ss.html" target="_blank">click here!</a>';
 
 
-var ss = '<span class="popup-title">SUNDAY SERVICE</span><img src="img/service.jpg" class="event-img"><img src="img/service.jpg" class="popup-img"><p class="popup-text"><span>2885 Pinole Valley Rd, Pinole, CA<br><br>Every Sunday at 2:15.</p></a></span>';
+var ss = '<span class="popup-title">SUNDAY SERVICE</span><img src="img/calendarimg/KT - Church.png" class="event-img"><img src="img/calendarimg/KT - Church.png" class="popup-img"><p class="popup-text"><span>2885 Pinole Valley Rd, Pinole, CA<br><br>Every Sunday at 2:15.</p></span>';
 
-var cg = '<span class="popup-title">CAREGROUP</span><img src="img/cg.jpg" class="event-img"><img src="img/cg.jpg" class="popup-img"><p class="popup-text"><span>Food. Worship. Fellowship.<br><br>Every Friday at 6 in various locations.</p></a></span>';
+var cg = '<span class="popup-title">CAREGROUP</span><img src="img/calendarimg/KT - Caregroup.png" class="event-img"><img src="img/calendarimg/KT - Caregroup.png" class="popup-img"><p class="popup-text"><span>Food. Worship. Fellowship.<br><br>Every Friday at 6 in various locations.</p></span>';
 
-var pm = '<span class="popup-title">PRAYER MEETING</span><img src="img/pm.jpg" class="event-img"><img src="img/pm.jpg" class="popup-img"><p class="popup-text"><span>A safe place to connect and open up.<br><br>Connect with your Care Group for more information.</p></a></span>';
+var pm = '<span class="popup-title">PRAYER MEETING</span><img src="img/calendarimg/KT - Prayer Meeting.png" class="event-img"><img src="img/calendarimg/KT - Prayer Meeting.png" class="popup-img"><p class="popup-text"><span>A safe place to connect and open up.<br><br>Connect with your Care Group for more information.</p></span>';
+
+var worshipNight = '<span class="popup-title">WORSHIP NIGHT</span><img src="img/calendarimg/KT - Worship Night.png" class="event-img"><img src="img/calendarimg/KT - Worship Night.png" class="popup-img"><p class="popup-text"><span>Our church is teaming up with Bethel Church California for a night of praise and worship. We invite all Indonesian students and young professionals in the Bay Area. You don\'t want to miss this!<br><br>Venue: 120 Old Country Rd, Brisbane, CA<br><br>Connect with your Care Group for more information.</p></span>';
+
+var ifgfAnn = '<span class="popup-title">IFGF PINOLE ANNIVERSARY DINNER</span><img src="img/calendarimg/KT - Anniversary Dinner.png" class="event-img"><img src="img/calendarimg/KT - Anniversary Dinner.png" class="popup-img"><p class="popup-text"><span>Celebrate our church\'s anniversary with us!<br><br>Connect with your Care Group for more information.</p></span>';
+
+var ifgfConf = '<span class="popup-title">IFGF CONFERENCE 2015 - WEST COAST</span><img src="img/calendarimg/KT - IFGF Conference.png" class="event-img"><img src="img/calendarimg/KT - IFGF Conference.png" class="popup-img"><p class="popup-text"><span>Experience breakthroughs with fellow IFGF churches this Thanksgiving<br><br>Speakers: Joey Bonifacio, Joseph Bonifacio, Jimmy Oentoro<br><br><a href="http://ifgfla.org/tgr">Click here for more information</a></p></span>';
 
 
 var codropsEvents = {
@@ -51,7 +57,7 @@ var codropsEvents = {
 	'10-09-2015':  {content: cg},
 	'10-16-2015':  {content: cg},
 	'10-23-2015':  {content: cg},
-	'10-30-2015':  {content: cg}
+	'10-30-2015':  {content: cg},
 
 	//pm
 	// '08-06-2015':  {content: pm},
@@ -64,7 +70,11 @@ var codropsEvents = {
 	// '09-17-2015':  {content: pm},
 	// '09-24-2015':  {content: pm}	
 
-
+	'11-06-2015': {content: worshipNight},
+	'11-14-2015': {content: ifgfAnn},
+	'11-26-2015': {content: ifgfConf},
+	'11-27-2015': {content: ifgfConf},
+	'11-28-2015': {content: ifgfConf},
 
 };
 

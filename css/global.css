@@ -9,7 +9,7 @@ p {
 }
 
 .not-active {
-  color: gray !important;
+  color: #CCCCCC !important;
 }
 
 .not-active:hover {
