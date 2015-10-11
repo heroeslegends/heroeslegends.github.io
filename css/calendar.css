@@ -38,6 +38,10 @@ span.fc-date {
 }
 
 
+.fc-six-rows > div.fc-body > div.fc-row > div.fc-content > div.fc-calendar-events > div.fc-calendar-event > img.event-img {
+  width: 70%;
+}
+
 
 .event-img {
 
