@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="css/global.css">
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/home.css" rel="stylesheet">
+<!--  <link href="css/home.css" rel="stylesheet">-->
   <style type="text/css"></style>
 </head>
 
@@ -68,38 +68,42 @@
                 <img src="img/KT - Contact Us Text.jpg" alt="upcoming events" style="position:relative;max-width:30%;min-width:250px;height:auto" class="center-block">
             </center>
 
-            <div class="content container about-us-text">
-                Interested in joining our next events? Have any questions about the Word? Need a prayer? No matter what the questions or prayer requests are, we are just a click away! Fill the form below and we'll get back to you as soon as we can!
-                <br><br>
+            <div class="content container contact-us-content">
+                <div class="contact-us-text">
+                    Interested in joining our next events? Have any questions about the Word? Need a prayer? Fill the form below and we'll get back to you as soon as we can!
+                </div>
                 <FORM Action="http://formspree.io/cgheroeslegends@gmail.com" METHOD="POST">
                     <tr>
                         <td><label> Name:</label></td>
-                        <br>
-                        <td><input type="text" name="name" style="width: 100%; padding: 0 8px;"  placeholder="Name"></td>
+                        <td><input type="text" name="name" placeholder="Name" required></td>
                     </tr>
-                    <br>
-                    <br>
                     <tr>
                         <td><label> Email:</label></td>
-                        <br>
-                        <td><input type="email" name="_replyto" style="width: 100%; padding: 0 8px;" type="text" placeholder="Email"></td>
+                        <td><input type="email" name="_replyto" type="text" placeholder="Email" required></td>
                     </tr>
-                    <br>
-                    <br>
+                    <tr>
+                        <td><label> Subject:</label></td>
+                        <td><select name="_subject" required>
+                            <option value="New to the group">New to the group</option>
+                            <option value="Information about our activities and upcoming events">Information about our activities and upcoming events</option>
+                            <option value="Bible questions">Bible questions</option>
+                            <option value="Prayer request">Prayer request</option>
+                            <option value="Comments about our site or social media pages">Comments about our site or social media pages</option>
+                            <option value="Other inquiries">Other inquiries</option>
+                        </select></td>
+                    </tr>
+                    
                     <tr>
                         <td><label>Message:</label></td>
-                        <br>
-                        <td><textarea name="message" style="width: 100%; height: 100px; border: 1px solid #CCC; border-radius: 5px; padding: 5px 8px; resize: none;" placeholder="Message"></textarea></td>
+                        <td><textarea name="message" placeholder="Message" required></textarea></td>
                     </tr>
-                    <BR>
-                    <br>
                     <td>
                         <input type="hidden"  name="_subject" value="Request about IFGF Pinole">
+                        <input type="text" name="_gotcha" style="display:none" />
                     </td>
-                    <center><button type="submit" class="btn btn-primary">Submit</button></center>
+                    
+                    <button type="submit" class="btn btn-primary submit-button">Submit</button>
                 </FORM>
-                <br>
-                <br>
             </div>
             
             <footer class="content done navbar-inverse col-sm-12" id="events" style="background-color: #E0E0E0;">
