@@ -20,6 +20,9 @@ html, body {
 .bacons{
     background-image: url("img/events.jpg");
     /*background-color: #cccccc;*/
+    background-image:url('img/KT - W2 Background Red Logo.png');
+    background-repeat: no-repeat;
+    padding-bottom:20px;
 }
 
 
@@ -30,9 +33,12 @@ html, body {
     height: 100%;
     overflow: hidden;
     max-width:760px;
-    max-height:480px;
+    max-height:320px;
     min-height:200px;
     text-align:center;
+    
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .video-container iframe {
@@ -49,18 +55,47 @@ html, body {
   padding-bottom: 30px;
 }
 
-.about-us-text {
+#skrollr-body .about-us-text {
   font-size: 17px;
+  padding-left:35px;
+  padding-right:35px;
 }
 
-.upevent-text {
-  text-align: justify;
+#skrollr-body .about-us-content {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:20px;
+}
+
+#skrollr-body .about-us-content h2 {
+    margin-top:0px;
+}
+
+#skrollr-body .upevent-text {
+  text-align: center;
   padding-right: 1em;
   padding-left: 1em;
+  width: 270px;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 .upcomingevents * {
   float:none;
+}
+
+
+#skrollr-body .get-connected {
+    margin:25px;
+    font-size:30px;
+    text-align:center;
+    color:#5c93f2;
+}
+
+#skrollr-body .get-connected a:hover {
+    text-decoration: none;
 }
 
 /*for iphone 5*/
