@@ -74,7 +74,7 @@
             Join us for an awesome Thanksgiving weekend with fellow IFGF churches on November 26-28, 2015!
             <br>
             <br>
-            <a href="http://ifgfla.org/tgr"> Click here for more information </a>
+            <a class="more-information" href="http://ifgfla.org/tgr"> click for more information </a>
         </center>
 
           <!-- CALENDAR -->
@@ -138,7 +138,15 @@
                       html: true,
                       trigger: 'hover',
                       selector: 'div.fc-content',
-                      placement: 'auto',
+                      placement: function (context, source) {
+                          var position = $(source).position();
+
+                          if (position.left > 215) {
+                              return "left";
+                          }
+
+                          return "right";
+                      },
                       content: function() {
                                   pop_content=pop_content.replace("100%", "60px");
                                   pop_content=pop_content.replace("100%", "60px"); //replace 100%
