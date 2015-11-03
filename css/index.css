@@ -86,8 +86,11 @@ html, body {
   float:none;
 }
 
-
 #skrollr-body .get-connected {
+    text-align:center;
+}
+
+#skrollr-body .get-connected a {
     margin:25px;
     font-size:30px;
     text-align:center;
